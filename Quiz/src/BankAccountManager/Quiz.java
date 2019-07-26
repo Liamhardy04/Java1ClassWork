@@ -1,5 +1,5 @@
 
-package forLoopFun;
+package BankAccountManager;
 
 import java.util.Scanner;
 

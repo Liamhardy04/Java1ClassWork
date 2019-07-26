@@ -5,11 +5,30 @@
  */
 package person;
 
-/**
- *
- * @author Education Unlimited
- */
 public class PhoneBook {
-    a = Person[];
+//       Person person[]; 
+       Person people[] = new Person[100];
+           
+       int pBLength;
+       public PhoneBook() {
+           pBLength = 0;
+           Person person = new Person("Liam","Hardy","5109238452");
+           
+         
+           
+       }
+       public void addPerson(String firstName, String lastName, String phoneNumber) {
+           people[pBLength] = person;
+           pBLength ++;
+       
+       }
+       public void printEntries() {
+           for (int i = 0; i < pBLength; i++) {
+               System.out.println(people[i]);
+           }
+    
+    }
+       
+
     
 }
